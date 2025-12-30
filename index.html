@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>StartTreeV2</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <!-- <link href="colors.css" rel="stylesheet" type="text/css"/> -->
+    <link rel="alternate icon" type="image/svg" href="logos/home.svg">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="dns-prefetch" href="https://studip.hochschule-trier.de/" />
+    <link rel="preconnect" href="https://studip.hochschule-trier.de/" crossorigin="anonymous" />
+    <link rel="dns-prefetch" href="https://qis.hochschule-trier.de/" />
+    <link rel="dns-prefetch" href="https://olat.vcrp.de/" />
+    <meta name="robots" content="nofollow">
+    <meta name="description" content="Sammlung von Startlinks">
+  </head>
+  <body>
+    <style>
+      img {
+        height: 5vw;
+        min-height: 30px;
+        max-height: 80px;
+        width: auto
+      }
+    </style>
+    <nav>
+      <div style="display:block; margin: 12px;">
+        <form id="search_form_homepage" class="search--home  js-search-form search--adv" target="_blank" rel="noreferrer noopener" name="x" method="GET" action="https://html.duckduckgo.com/html">
+          <input type="text" autocomplete="on" id="delSearchBarInput" name="q" tabindex="1" value="" autocapitalize="off" autocorrect="off" placeholder="DuckDuckGo">
+          <input type="submit" tabindex="2" value="S">
+          <input type="button" id="delSearchBarBtn" tabindex="3" value="X"><!-- Suchbegriff löschen -->
+          <input type="hidden" name="kl" value="de-de"><!-- Suchregion Deutschland -->
+          <input type="hidden" name="kae" value="d"><!-- Dunkles Farbschema -->
+          <input type="hidden" name="ia" value="web"><!-- Quelle -->
+        </form>
+      </div>
+    </nav>
+    <main>
+      <!-- <details open id="favoriten">
+        <summary>Favoriten</summary> -->
+        <ul>
+          <li>
+            <div class="card">
+              <a href="https://poe.com/" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-poe.svg" alt="POE" />
+                <p>POE</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://calendar.google.com/calendar/u/0/r" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/calendar.svg" alt="Google Cal" loading="lazy" />
+                <p>G-Kalender</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://chat.openai.com/chat" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-chatgpt.svg" alt="ChatGPT">
+                </div>
+                <p>ChatGPT</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://www.bahn.de/" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/bahn.svg" alt="Bahn" loading="lazy" />
+                <p>Bahn</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <!--<a src="" rel="noreferrer noopener">-->
+              <a href="markdown-cheat-sheet.md" rel="noreferrer noopener" >
+                <img class="cardImg" src="logos/markdown.svg" alt="Markdown" loading="lazy" />
+                <p>Markdown</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://warnung.bund.de/meldungen" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/warnungBund.ico" alt="Warnung Bund"loading="lazy" />
+                <p>Warnung Bund</p>
+              </a>                </div>
+            </div>
+          </li>
+        </ul>
+      <!-- </details> -->
+      <!-- <details open id="hochschule">
+        <summary>Hochschule</summary> -->
+        <ul>
+          <li>
+            <div class="card">
+              <a href="https://studip.hochschule-trier.de/index.php?again=yes&amp;sso=shibldap" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/studip.svg" alt="Stud.IP"loading="lazy" />
+                <p>Stud.IP</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://studip.hochschule-trier.de/dispatch.php/calendar/schedule#schedule" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/kalender.svg" alt="Kalender"loading="lazy" />
+                <p>Kalender</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://olat.vcrp.de/dmz/" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-olat.svg" alt="OLAT"></div>
+                <p>OLAT</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://mail.umwelt-campus.de/owa/#path=/mail" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/webmail_f.svg" alt="Webmail"loading="lazy" />
+                <p>Webmail</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://mensa.campus-company.eu/" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-mensa.svg" alt="Mensa"></div>
+                <p>Mensa</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://seafile.rlp.net/" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-seafile.svg" alt="Seafile"></div>
+                <p>Seafile</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://chat.edu-ki-rlp.de/chat" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-chat.svg" alt="Edu‑KI RLP Chat"></div>
+                <p>Edu‑KI RLP Chat</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://notebooklm.google.com/" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-notebook.svg" alt="NotebookLM"></div>
+                <p>NotebookLM</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://gitlab.rlp.net/users/chbc1154897633/projects" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-gitlab.svg" alt="GitLab RLP"></div>
+                <p>GitLab RLP</p>
+              </a>
+            </div>
+          </li>
+          <!--
+          <li>
+            <div class="card">
+              <a href="https://video.hochschule-trier.de/Panopto/Pages/Sessions/List.aspx#folderID=%22a1e2ac90-71f1-4c4e-b2ab-9f1ce415032b%22&amp;maxResults=50&amp;view=0" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-panopto.svg" alt="Algorithmen"loading="lazy" />
+                <p>Algorithmen</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://video.hochschule-trier.de/Panopto/Pages/Sessions/List.aspx#folderID=%2231164ab1-550c-4a1e-a013-aba4006c88b9%22" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-panopto.svg" alt="Programmierparadigmen"loading="lazy" />
+                <p>Programmierparadigmen</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://video.hochschule-trier.de/Panopto/Pages/Sessions/List.aspx#folderID=%225c90f090-9547-4442-9670-ac3d0072ccf4%22" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-panopto.svg" alt="Angew Mathe"loading="lazy" />
+                <p>Angew Mathe</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://video.hochschule-trier.de/Panopto/Pages/Sessions/List.aspx#folderID=%22cdc4b749-8a76-4f7f-b398-ac3a00a2a7f6%22" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-panopto.svg" alt="IT-Sicherheit"loading="lazy" />
+                <p>IT-Sicherheit</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://video.hochschule-trier.de/Panopto/Pages/Sessions/List.aspx#maxResults=250&amp;folderID=%229be33910-d59f-4f35-967e-78d9442d5a3a%22" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-panopto.svg" alt="Theo Inf"loading="lazy" />
+                <p>Theo Inf FH-Trier nicht UCB</p>
+              </a>
+            </div>
+          </li>
+        -->
+          <li>
+            <div class="card">
+              <a href="https://video.hochschule-trier.de/Panopto/Pages/Sessions/List.aspx#folderID=%22a1d3bd84-9aa8-449c-aa0d-aebc00dff983%22" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-panopto.svg" alt="Theo Inf"loading="lazy" />
+                <p>Theo Inf</p>
+              </a>
+            </div>
+          </li>
+          <!--<li>
+            <div class="card">
+              <a href="https://drive.google.com/drive/folders/1D4ZNA8UeEhNGQrofgkWjQXpQk9z0CTG2" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-google-drive.svg" alt="Inf G-Drive"loading="lazy" />
+                <p>Inf G-Drive</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://studiwerk.de/schneidershof" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-uber-eats.svg" alt="Mensa"loading="lazy" />
+                <p>Mensa</p>
+              </a>
+            </div>
+          </li>-->
+          <li>
+            <div class="card">
+              <a href="https://stundenplan.umwelt-campus.de/Module/index.htm" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-timetable.svg" alt="Stundenplan"></div>
+                <p>Stundenplan</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://www.umwelt-campus.de/campus/aktuelles/infos-aktuelles-semester/pruefungsplan/page" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-exam.svg" alt="Prüfungsplan"></div>
+                <p>Prüfungsplan</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://qis.hochschule-trier.de/qisserver/rds?state=user&amp;type=0" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/grade.svg" alt="QIS"loading="lazy" />
+                <p>QIS</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://webdemo.myscript.com/views/math/index.html" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-math.svg" alt="MyScript Math Demo"></div>
+                <p>MyScript Math Demo</p>
+              </a>
+            </div>
+          </li>
+
+          <li>
+            <div class="card">
+              <a href="https://keep.google.com/" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-keep.svg" alt="Google Keep"></div>
+                <p>Google Keep</p>
+              </a>
+            </div>
+          </li>
+
+        <li>
+            <div class="card">
+              <a href="https://www.overleaf.com/project" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-overleaf.svg" alt="Overleaf"></div>
+                <p>Overleaf</p>
+              </a>
+            </div>
+          </li>
+        </ul>
+      <!-- </details>-->
+      <details open="" id="sozial">
+        <summary>Sozial</summary>
+        <ul>
+          <li>
+            <div class="card">
+              <a href="https://www.messenger.com/e2ee/t/6587951767961983" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-facebook-messenger_redblue.svg" alt="Messenger"loading="lazy" />
+                <p>Messenger</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://www.messenger.com/t/100004049277366/" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-facebook-messenger_blue.svg" alt="Messenger Old"loading="lazy" />
+                <p>Messenger Old</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://web.whatsapp.com/" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-whatsapp.svg" alt="WhatsApp"loading="lazy" />
+                <p>WhatsApp</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://discord.com/channels/@me" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-discord-new.svg" alt="Discord"loading="lazy" />
+                <p>Discord</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://mail.google.com/mail/u/1/#inbox" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-gmail-logo.svg" alt="G-Mail buchmac"loading="lazy" />
+                <p>G-Mail buchmac</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://mail.google.com/mail/u/0/#inbox" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-gmail-logo.svg" alt="G-Mail cc044"loading="lazy" />
+                <p>G-Mail cc044</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://mail.google.com/mail/u/2/#inbox" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-gmail.svg" alt="G-Mail cctitan"loading="lazy" />
+                <p>G-Mail cctitan</p>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </details>
+      <details id="multimedia">
+        <summary>Multimedia</summary>
+        <ul>
+          <li>
+            <div class="card">
+              <a href="https://www.southpark.de/random-episode" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-south-park.svg" alt="Southpark Random Episode"></div>
+                <p>Southpark – Zufällige Episode</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://pr0gramm.com/top" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-pr0gramm.svg" alt="pr0gramm Top"></div>
+                <p>pr0gramm</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://www.youtube.com/feed/subscriptions" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-youtube_neon.svg" alt="Abonnements"loading="lazy" />
+                <p>Abonnements</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://music.youtube.com/playlist?list=PLMMkftKxxC46YWC7Fia1Nqtigl0f6gF02  " rel="noreferrer noopener">
+                <img class="cardImg" src="logos/youtube-music.svg" alt="Musik"loading="lazy" />
+                <p>Musik</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://www.youtv.de/videorekorder" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/ytv.svg" alt="YouTV"loading="lazy" />
+                <p>YouTV</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://hermitcraft.com/" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/hermitcraft.svg" alt="Hermitcraft"loading="lazy" />
+                <p>Hermitcraft</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://www.twitch.tv/directory/following" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-twitch.svg" alt="Twitch"loading="lazy" />
+                <p>Twitch</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://f95zone.to/sam/latest_alpha/#/cat=games/page=1/notags=107,382,1434/noprefixes=2,4" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-game.svg" alt="F95Zone"></div>
+                <p>F95Zone</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://store.epicgames.com/login?lang=de&state=%2Fde" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-epic-games.svg" alt="Epic Games Store"></div>
+                <p>Epic Games Store</p>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </details>
+      <details id="blogs">
+        <summary>Blogs</summary>
+        <ul>
+          <li>
+            <div class="card">
+              <a href="https://tarnkappe.info/artikel" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/tarnkappe.svg" alt="Tarnkappe"loading="lazy" />
+                <p>Tarnkappe</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://www.tagesschau.de/" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/tagesschau.svg" alt="Tagesschau"loading="lazy" />
+                <p>Tagesschau</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://www.makeuseof.com/" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/muo.svg" alt="MakeUseOf"loading="lazy" />
+                <p>MakeUseOf</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://www.xda-developers.com/" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-xda.svg" alt="XDA‑Developers"></div>
+                <p>XDA‑Developers</p>
+              </a>
+            </div>
+          </li>
+
+          <li>
+            <div class="card">
+              <a href="https://www.t-online.de/" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-t-online.svg" alt="T‑Online"></div>
+                <p>T‑Online</p>
+              </a>
+            </div>
+          </li>
+
+          <li>
+            <div class="card">
+              <a href="https://www.watson.de/" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-watson.svg" alt="Watson"></div>
+                <p>Watson</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://www.howtogeek.com/" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/howtogeek.svg" alt="HowToGeek"loading="lazy" />
+                <p>HowToGeek</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://krautreporter.de/neue-artikel" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-krautreporter.svg" alt="Krautreporter"></div>
+                <p>Krautreporter – Neue Artikel</p>
+              </a>
+            </div>
+          </li>
+
+          <li>
+            <div class="card">
+              <a href="https://www.heise.de/" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-heise.svg" alt="Heise Online"></div>
+                <p>Heise Online</p>
+              </a>
+            </div>
+          </li>
+
+          <li>
+            <div class="card">
+              <a href="https://www.fluter.de/" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-fluter.svg" alt="Fluter"></div>
+                <p>Fluter</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://arbeits-abc.de/" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-arbeits-abc.svg" alt="Arbeits‑ABC"></div>
+                <p>Arbeits‑ABC</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://www.businessinsider.de/" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/businessInsider_black.svg" alt="BusinessIns"loading="lazy" />
+                <p>BusinessIns</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://www.omgubuntu.co.uk/" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/omgubuntu.png" alt="OmgUbuntu"loading="lazy" />
+                <p>OmgUbuntu</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://www.googlewatchblog.de/" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/googleblog.webp" alt="GoogleBlog"loading="lazy" />
+                <p>GoogleBlog</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://netzpolitik.org/aktuell/" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/netzpolitik.svg" alt="Netzpolitik"loading="lazy" />
+                <p>Netzpolitik</p>
+              </a>
+            </div>
+          </li>
+          
+          <li>
+            <div class="card">
+              <a href="https://minecraftservers.org/server/513762#left" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/mcs.webp" alt="Oldfacs"loading="lazy" />
+                <p>Oldfacs</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://www.aldi-sued.de/de/angebote/Prospekte.html" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/aldiSued.svg" alt="Aldi Prospekt"loading="lazy" />
+                <p>Aldi Prospekt</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://www.aldi-sued.de/de/angebote/frischekracher.html" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/aldi.png" alt="Aldi Aktuell"loading="lazy" />
+                <p>Aldi Aktuell</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://www.penny.de/angebote#handout" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/kaufland.svg" alt="Kaufland"loading="lazy" />
+                <p>Kaufland</p>
+              </a>
+            </div>
+          </li>
+          <!--
+          <li>
+            <div class="card">
+              <a href="https://filiale.kaufland.de/prospekte.html" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/kaufland.svg" alt="Kaufland"loading="lazy" />
+                <p>Kaufland</p>
+              </a>
+            </div>
+          </li>
+          -->
+        </ul>
+      </details>
+      <details open="" id="wetter">
+        <summary>Wetter</summary>
+        <ul>
+          <li>
+            <div class="card">
+              <a href="https://www.accuweather.com/de/de/hoppst%C3%A4dten-weiersbach/55768/weather-forecast/180663" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-accuweather.svg" alt="AccuWeather Hoppstädten‑Weiersbach"></div>
+                <p>Hoppstädten‑Weiersbach</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://www.accuweather.com/de/de/aum%C3%BChle/21521/weather-forecast/176053" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-accuweather.svg" alt="Aumühle"loading="lazy" />
+                <p>Aumühle</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://www.accuweather.com/de/de/wandsbek/22047/weather-forecast/168605" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-accuweather.svg" alt="Aumühle"loading="lazy" />
+                <p>Wandsbek</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://www.accuweather.com/de/de/trier/54290/weather-forecast/171045" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-accuweather.svg" alt="Aumühle"loading="lazy" />
+                <p>Trier</p>
+              </a>
+            </div>
+          </li>
+          <!--<li>
+            <div class="card">
+              <a href="https://www.wetter.com/deutschland/aumuehle/friedrichsruh/DE0000445002.html#forecast-navigation-line" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/wetter.svg" alt="Aumühle"loading="lazy" />
+                <p>Aumühle</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://www.wetter.com/deutschland/hamburg/DE0004130.html#forecast-navigation-line" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/wetter.svg" alt="Wandsbek"loading="lazy" />
+                <p>Wandsbek</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://www.wetter.com/deutschland/trier/pallien/DE0010618024.html#forecast-navigation-line" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/wetter.svg" alt="Trier"loading="lazy" />
+                <p>Trier</p>
+              </a>
+            </div>
+          </li>-->
+        </ul>
+      </details>
+      <details id="dienste">
+        <summary>Dienste</summary>
+        <ul>
+          <li>
+            <div class="card">
+              <a href="https://uhr.ptb.de/" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-clock.svg" alt="PTB Uhr"loading="lazy" />
+                <p>PTB Uhr</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://github.com/" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-github.svg" alt="Github"loading="lazy" />
+                <p>Github</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://support.hp.com/us-en/drivers/hp-elitebook-845-14-inch-g10-notebook-pc/2101628462" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-hp.svg" alt="HP Support"></div>
+                <p>HP Support – Treiber</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://whatismyipaddress.com/#whatismyipaddress_728x90_Desktop_ATF" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-ip.svg" alt="WhatIsMyIPAddress"></div>
+                <p>WhatIsMyIPAddress</p>
+              </a>
+            </div>
+          </li>
+
+          <li>
+            <div class="card">
+              <a href="https://whatismyviewport.com/" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-viewport.svg" alt="WhatIsMyViewport"></div>
+                <p>WhatIsMyViewport</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://www.bahnhof.de/suche" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/bahn.svg" alt="Bahnhof"loading="lazy" />
+                <p>Bahnhof</p>
+              </a>
+            </div>
+          </li>
+
+          <li>
+            <div class="card">
+              <a href="https://omnitools.app/categories/json" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-json.svg" alt="OmniTools JSON"></div>
+                <p>OmniTools – JSON</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://urldecoder.io/" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/ct.svg" alt="URL Decoder"loading="lazy" />
+                <p>URL Decoder</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://app.degoo.com/files/0" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/degoo.svg" alt="Degoo"loading="lazy" />
+                <p>Degoo</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://render.com/" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/render.svg" alt="Render"loading="lazy" />
+                <p>Render</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://store.epicgames.com/de/" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/epicgames.svg" alt="Epicgames"loading="lazy" />
+                <p>Epicgames</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://www.sharedrop.io/" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/sharedrop.png" alt="Sharedrop"loading="lazy" />
+                <p>Sharedrop</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://send-anywhere.com/#transfer" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/ct.svg" alt="Send-Anywhere"loading="lazy" />
+                <p>Send-Anywhere</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://www.netzclub.net/login" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/netzclub.png" alt="Netzclub"loading="lazy" />
+                <p>Netzclub</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://www.idealo.de/preisvergleich/OffersOfProduct/201641123_-gs5-gigaset.html" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/idealo.ico" alt="Idealo GS5"loading="lazy" />
+                <p>Idealo GS5</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://www.idealo.de/preisvergleich/OffersOfProduct/201641123_-gs5-gigaset.html" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/idealo.ico" alt="Idealo JBL"loading="lazy" />
+                <p>Idealo JBL</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://de.camelcamelcamel.com/" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/camel.svg" alt="Camel"loading="lazy" />
+                <p>Camel</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="https://keepa.com/#!manage" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/camel.svg" alt="Camel"loading="lazy" />
+                <p>Camel</p>
+              </a>
+            </div>
+          </li>
+
+          <li>
+            <div class="card">
+              <a href="https://www.picnob.com/search/?q=tech_like_vera" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-instagram.svg" alt="Instagram"loading="lazy" />
+                <p>Instagram</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="http://192.168.1.1/" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/tplink.svg" alt="TP-Link"loading="lazy" />
+                <p>TP-Link</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="http://192.168.178.1/" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-fritzbox.svg" alt="Fritz.Box"loading="lazy" />
+                <p>Fritz.Box</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <a href="http://192.168.178.32" rel="noreferrer noopener">
+                <img class="cardImg" src="logos/coloured/icons8-sun_yellow.svg" alt="FEMS"loading="lazy" />
+                <p>FEMS</p>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </details>
+      <!-- <details id="pocketartikel">
+        <summary>Pocket Artikel</summary>
+        <article></article>
+      </details>
+      <details id="nachrichten">
+        <summary>Nachrichten</summary>
+        <article></article>
+      </details>
+      <details id="wetter">
+        <summary>Wetter</summary>
+        <article></article>
+      </details> -->
+    </main>
+    <script defer="">
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('/sw.js');
+        });
+      }
+
+      const delSearchBarBtn = document.getElementById('delSearchBarBtn');
+      const delSearchBarInput = document.getElementById('delSearchBarInput');
+    
+      delSearchBarBtn.addEventListener('click', clearSearchInput)
+      async function clearSearchInput() {
+        delSearchBarInput.value = '';
+        delSearchBarInput.focus();
+        return true
+      }
+      
+      /*
+      const pocketartikel = document.getElementById('pocketartikel');
+      const nachrichten = document.getElementById('nachrichten');
+      const wetter = document.getElementById('');
+      */
+      
+      /* Hole das Details-Element
+      // const details = document.querySelector('details');
+      const medien1 = document.getElementById('medien1');
+      const blogs = document.getElementById('blogs');
+
+      async function hideDetails(details, hours) {
+        // Überprüfe, ob die Stunde zwischen 6 und 18 Uhr liegt
+        if (hour >= 6 && hour < 18) {
+          // Setze das "open"-Attribut auf true
+          details.removeAttribute('open');
+          console.log('true')
+        } else {
+          // Setze das "open"-Attribut auf false
+          details.setAttribute('open', true);
+          console.log('false')
+        }
+      }
+    
+      // Erstelle ein neues Date-Objekt
+      const now = new Date();
+
+      // Hole die aktuelle Stunde
+      const hour = now.getHours();
+
+      hideDetails(medien1, hour);
+      hideDetails(blogs, hour);
+    
+      // Jede Stunde Aktualisieren
+      setInterval(() => {
+        // Erstelle ein neues Date-Objekt
+        const now = new Date();
+
+        // Hole die aktuelle Stunde
+        const hour = now.getHours();
+
+        hideDetails(medien1, hour);
+        hideDetails(blogs, hour);
+      }, 3600000)
+      */
+    </script>
+  </body>
+</html>
