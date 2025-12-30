@@ -98,14 +98,11 @@ a:hover, a:focus {
   transition-timing-function: ease-out;
   filter: none;
 }
-
-
 .cardImg {
-  background-repeat:no-repeat;
-  background-position: center center;
-  background-size: contain;
   height: 5vw;
   margin: 0 4vw;
+  pointer-events: none;
+  user-select: none;
 }
 
 img {
